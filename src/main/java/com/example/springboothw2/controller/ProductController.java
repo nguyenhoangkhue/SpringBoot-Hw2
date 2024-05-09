@@ -26,7 +26,7 @@ public class ProductController {
         products.add(new Product(8, "S24", "Good one", 3500,"SAMSUNG"));
     }
 
-    @GetMapping("/products")// http://localhost:8083/products
+    @GetMapping("/products")// http://localhost:8086/products
     public List<Product> getBooks() {
         return products;
     }
